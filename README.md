@@ -29,3 +29,9 @@ If you want to change the source Kontent project, follow these steps:
 6. Save and rename the file `.env`.
 
 When you now run the sample application, the application retrieves content from your project.
+
+### Personal Notes
+
+Store Directory is responsible for getting and updating the data. Files in this directory communicates with the CMS. 
+Pages Directory imports the file 
+Use Sample Project on your Kontent Account and connect it with this instance.
