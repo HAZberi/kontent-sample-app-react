@@ -31,6 +31,7 @@ class Article {
         'teaser_image',
         'post_date',
         'body_copy',
+        'custom_body',
         'video_host',
         'video_id',
         'tweet_link',

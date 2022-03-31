@@ -101,6 +101,19 @@ class Article extends Component {
         </p>
       );
 
+    let customBodyElement =
+      article.elements.customBody.value !== '<p><br></p>' ? (
+        <RichText
+          className="article-detail-content"
+          element={article.elements.customBody}
+        />
+      ) : (
+        <p className="article-detail-content">
+          {this.props.t('noBodyCopyValue')}
+        </p>
+      );
+
+      
     return (
       <div className="container">
         <Metadata
@@ -124,6 +137,7 @@ class Article extends Component {
             </div>
           </div>
           <div className="row">{bodyCopyElement}</div>
+          <div className="row">{customBodyElement}</div>
         </article>
       </div>
     );
