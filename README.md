@@ -35,4 +35,4 @@ When you now run the sample application, the application retrieves content from 
 Store Directory is responsible for getting and updating the data. Files in this directory communicates with the CMS. 
 Pages Directory imports the file 
 Use Sample Project on your Kontent Account and connect it with this instance.
-Edit content online in Kontent Dashboard and Test local app.
+Edit content online in Kontent Dashboard and Test local app. Test 1
